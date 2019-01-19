@@ -2,8 +2,6 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
-
 const metascraper = require("metascraper")([
   require("metascraper-author")(),
   require("metascraper-date")(),
