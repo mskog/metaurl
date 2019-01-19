@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "metascraper": "^4.9.0",
+    "metascraper-author": "^4.9.0",
+    "metascraper-clearbit-logo": "^4.10.0",
+    "metascraper-date": "^4.9.0",
+    "metascraper-description": "^4.9.0",
+    "metascraper-image": "^4.9.0",
+    "metascraper-logo": "^4.9.0",
+    "metascraper-publisher": "^4.9.0",
+    "metascraper-title": "^4.9.0",
+    "metascraper-url": "^4.9.0"
   }
 }
