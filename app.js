@@ -8,7 +8,7 @@ const metascraper = require("metascraper")([
   require("metascraper-description")(),
   require("metascraper-image")(),
   require("metascraper-logo")(),
-  require("metascraper-clearbit-logo")(),
+  require("metascraper-clearbit")(),
   require("metascraper-publisher")(),
   require("metascraper-title")(),
   require("metascraper-url")()
@@ -25,3 +25,5 @@ app.get("/", (req, res) => {
     res.send(metadata);
   })();
 });
+
+app.listen(port);
