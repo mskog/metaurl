@@ -20,9 +20,14 @@ app.get("/", (req, res) => {
   const targetUrl = req.query["url"];
 
   (async () => {
-    const { body: html, url } = await got(targetUrl);
-    const metadata = await metascraper({ html, url });
-    res.send(metadata);
+    try {
+      const { body: html, url } = await got(targetUrl, { timeout: 5000 });
+      const metadata = await metascraper({ html, url });
+      res.send(metadata);
+    } catch (e) {
+      res.status(422);
+      res.json({ error: "Unprocessable entity" });
+    }
   })();
 });
 
