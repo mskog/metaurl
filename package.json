@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "metascraper": "^5.6.3",
+    "metascraper": "^5.11.14",
     "metascraper-author": "^5.6.3",
     "metascraper-clearbit": "^5.3.0",
     "metascraper-date": "^5.6.3",
