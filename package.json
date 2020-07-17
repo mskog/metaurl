@@ -12,7 +12,7 @@
     "express": "^4.17.1",
     "metascraper": "^5.12.17",
     "metascraper-author": "^5.6.3",
-    "metascraper-clearbit": "^5.3.0",
+    "metascraper-clearbit": "^5.12.18",
     "metascraper-date": "^5.12.17",
     "metascraper-description": "^5.6.3",
     "metascraper-image": "^5.6.3",
