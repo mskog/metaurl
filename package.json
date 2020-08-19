@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "metascraper": "^5.14.3",
-    "metascraper-author": "^5.13.2",
+    "metascraper-author": "^5.14.3",
     "metascraper-clearbit": "^5.14.3",
     "metascraper-date": "^5.14.2",
     "metascraper-description": "^5.13.2",
